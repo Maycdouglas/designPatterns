@@ -1,6 +1,7 @@
 # FACTORY METHOD
 
-![FactoryMethod.drawio.png](..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FDownloads%2FFactoryMethod.drawio.png)
+![FactoryMethod drawio](https://github.com/user-attachments/assets/ab9bb616-f21f-46b7-b8bd-481fbd1fed1b)
+
 
 ### DEFINIÇÃO
 O padrão Factory Method é um padrão de criação que fornece uma interface para criar objetos em uma surperclasse, permitindo que as subclasses alterem o tipo de objetos que serão criados. Ele ajuda a desacoplar o código que cria objetos do código que os utiliza.
