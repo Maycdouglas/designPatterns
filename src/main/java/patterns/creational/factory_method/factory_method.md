@@ -1,5 +1,7 @@
 # FACTORY METHOD
 
+![FactoryMethod.drawio.png](..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FDownloads%2FFactoryMethod.drawio.png)
+
 ### DEFINIÇÃO
 O padrão Factory Method é um padrão de criação que fornece uma interface para criar objetos em uma surperclasse, permitindo que as subclasses alterem o tipo de objetos que serão criados. Ele ajuda a desacoplar o código que cria objetos do código que os utiliza.
 
@@ -34,5 +36,5 @@ O padrão Factory Method é um padrão de criação que fornece uma interface pa
 ### PASSO A PASSO
 1) Criar uma Interface ou Classe Abstrata
 2) Criar uma Classe que será a nossa fábrica. Ela deve possuir um método static, ou seja, um método que para ser utilizado não precisa instanciar um objeto daquela classe, basta usar o próprio nome da classe
-3) Criar as classes que deseja sendo implementadas a partir da Interface ou Classe Abstrata criada anteriormente.
+3) Criar as classes que deseja sendo implementadas a partir da Interface ou Classe Abstrata criada no passo 1.
 4) Para usar, deve-se criar um objeto a partir da Interface ou Classe Abstrata, porém ao invés de usar o NEW, essa variável receberá o retorno do método Static da classe FACTORY
